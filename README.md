@@ -45,12 +45,12 @@ This project demonstrates how to containerize an existing portfolio website usin
 ## Project Structure
 
 Kobumanzi.github.io/ 
-    Dockerfile # Docker configuration to containerize the website 
-    index.html # Main HTML file of the portfolio website 
-    css/ # Stylesheets 
-    js/ # JavaScript files 
-    images/ # Image assets for the website 
-    README.md # This file
+    - Dockerfile # Docker configuration to containerize the website 
+    - index.html # Main HTML file of the portfolio website 
+    - css/ # Stylesheets 
+    - js/ # JavaScript files 
+    - images/ # Image assets for the website 
+    - README.md # This file
 
 
 ## Getting Started

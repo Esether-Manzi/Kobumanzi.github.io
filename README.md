@@ -44,7 +44,13 @@ This project demonstrates how to containerize an existing portfolio website usin
 
 ## Project Structure
 
-Kobumanzi.github.io/ ├── Dockerfile # Docker configuration to containerize the website ├── index.html # Main HTML file of the portfolio website ├── css/ # Stylesheets ├── js/ # JavaScript files ├── images/ # Image assets for the website └── README.md # This file
+Kobumanzi.github.io/ 
+    Dockerfile # Docker configuration to containerize the website 
+    index.html # Main HTML file of the portfolio website 
+    css/ # Stylesheets 
+    js/ # JavaScript files 
+    images/ # Image assets for the website 
+    README.md # This file
 
 
 ## Getting Started
@@ -57,10 +63,23 @@ Kobumanzi.github.io/ ├── Dockerfile # Docker configuration to containerize
 ### Building the Docker Image
 
 1. **Clone the repository (if not already cloned):**
-   ```sh
-   git clone https://github.com/Esether-Manzi/Kobumanzi.github.io.git
-   cd Kobumanzi.github.io
+   git clone <git repository url>
 
 2. **Build the Docker image:**
     docker build -t portfolio-website .
 
+3. **Running the Container:**
+    - docker run -p 80:80 portfolio-website
+    - Access the Website: Open your web browser and navigate to http://localhost to view your portfolio website running inside the container
+
+**Kubernetes Development:**
+    - For advanced deployment and production use, Kubernetes can orchestrate your containerized application.
+
+Contributing
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+License
+This project has no License. See the LICENSE file for details.
+
+Repository Link
+View the project on GitHub: Kobumanzi.github.io
